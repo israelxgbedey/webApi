@@ -6,7 +6,7 @@ class Program
 {
     static async Task Main()
     {
-        string apiUrl = "https://e60d-18-223-122-221.ngrok-free.app/api/user";
+        string apiUrl = "http://ec2-18-223-122-221.us-east-2.compute.amazonaws.com:5143/api/user";
 
         using (HttpClient client = new HttpClient())
         {
