@@ -6,7 +6,7 @@ class Program
 {
     static async Task Main()
     {
-        string apiUrl = "https://97d4d31d5873211ce49a6d8ed47e8553.serveo.net/api/user";
+        string apiUrl = "https://e60d-18-223-122-221.ngrok-free.app/api/user";
 
         using (HttpClient client = new HttpClient())
         {
