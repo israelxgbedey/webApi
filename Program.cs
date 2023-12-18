@@ -22,7 +22,6 @@ class Program
                 }
                 else
                 {
-                    
                     Console.WriteLine($"Error: {response.StatusCode}");
                 }
             }
